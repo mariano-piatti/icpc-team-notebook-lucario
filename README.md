@@ -1,4 +1,4 @@
-![](/img/Lucario.png = 230x)
+![](/img/Lucario.png)
 
 # Lucario
 ### ICPC Team Notebook | TML UNC - FaMAF | +Vasito
