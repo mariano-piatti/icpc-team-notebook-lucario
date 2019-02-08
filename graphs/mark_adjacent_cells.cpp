@@ -1,3 +1,6 @@
+//m = number of columns
+//n = number of rows
+
 void mark(int i,int j){
 	if(i==0&&j==0){
 		g[i][j].pb(mp(i,j+1));
