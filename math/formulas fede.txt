@@ -1,0 +1,1 @@
+int cant = r/l - (l/k + (l%k!=0)) + 1      =====>   cantidad de números divisibles por k en el intervalo [l,r]
