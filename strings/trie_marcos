@@ -1,0 +1,11 @@
+const int MAXN=1e5;	//cantidad total de caracteres
+int t[MAXN][26],id=1;	// no olvidarse de llenar la matriz de -1
+
+void add(string &s){
+	int now=0;
+	for(auto x:s){
+		if(t[now][x-'a']<0) t[now][x-'a']=id++;
+		now=t[now][x-'a'];
+	}
+	//ahora now es el nodo donde termina la palabra
+}
