@@ -1,0 +1,6 @@
+dados a,b,c,d
+
+s = (a+b+c+d)/2;
+max area posible = sqrt((s-a)*(s-b)*(s-c)*(s-d));
+
+cout << max area pósible << endl;
